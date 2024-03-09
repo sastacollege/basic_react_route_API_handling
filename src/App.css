@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  padding: 20px;
+  width: 900px;
+
+  box-shadow: 5px 5px 16px 5px #32f983;
+  border: 4px solid black;
+
+  transition: all 0.6s ease;
+}
+
+.navLink:hover {
+  background-color: #adfdcd;
+  color: black;
+  font-weight: 700;
+}
+
+.postMain {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.postContainer {
+  font-family: sans-serif;
+  text-transform: capitalize;
+  width: 600px;
+
+  box-shadow: 0px 0px 10px 5px #c4c1c1;
+
+  padding: 20px;
+}
+
+.postContainer h1 {
+  text-transform: uppercase;
+  color: #5499c7;
+}
+
+.postContainer p {
+  font-size: 20px;
+  line-height: 1.3;
+  color: #333;
+}
